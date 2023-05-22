@@ -3,12 +3,13 @@
 ## Live Link
 - https://isaackmogaka.github.io/My-Third-project-week-3
 ## Description
-- Rocarstor Car Website page
-- ![Car Website]()
-## Technologies used 
+- Tile Marching Game.
+- ![Tile Marching Game Website](![Screenshot from 2023-05-22 20-37-27](https://github.com/Isaackmogaka/My-Third-project-week-3/assets/132668097/dde63e79-5fd8-438a-b332-8339763e1dff)
+## Technologies used to create the Game.
 - This webpage was developed using:
    - HTML
    - CSS
+   - Javascript
 ## Setup instructions
 - clone repo to vscode https://github.com/Isaackmogaka/My-Third-project-week-3.git
 - After cloning, open the project with VS Code and customize to your own     preference

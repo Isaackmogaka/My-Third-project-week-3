@@ -1,4 +1,4 @@
-# My-Third-project-week-3 
+# Click March Memory Game.
 - By Isaac Mogaka
 ## Live Link
 - https://isaackmogaka.github.io/My-Third-project-week-3

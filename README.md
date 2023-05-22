@@ -4,7 +4,7 @@
 - https://isaackmogaka.github.io/My-Third-project-week-3
 ## Description
 - Tile Marching Game.
-- !(![Screenshot from 2023-05-22 20-37-27](https://github.com/Isaackmogaka/My-Third-project-week-3/assets/132668097/dde63e79-5fd8-438a-b332-8339763e1dff)
+- ![Screenshot from 2023-05-22 20-37-27](https://github.com/Isaackmogaka/My-Third-project-week-3/assets/132668097/dde63e79-5fd8-438a-b332-8339763e1dff)
 ## Technologies used to create the Game.
 - This webpage was developed using:
    - HTML

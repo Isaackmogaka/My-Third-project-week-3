@@ -4,31 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <title>Tile Matching Game</title>
 </head>
 <body>
-    <h1>CLICK-MATCH MEMORY GAME!!</h1>
-    <p>0 Moves(s) 0 mins 0 secs</p>
-    <section class="container">
-    <ul>
-        <li><img src="299f72ce92b67c935f424a3836bf7071.jpg"></li>
-        <li><img src="4262572_stock-vector-farm-animals-goat.jpg"></li>
-        <li><img src="images (1).jpeg"></li>
-        <li><img src="images (2).jpeg"></li>
-        <li><img src="panda-animals-single-icon-cartoon-style-rater-bitmap-symbol-stock-illustration-web-91847776.jpg"></li>
-        <li><img src="4262572_stock-vector-farm-animals-goat.jpg"></li>
-        <li><img src="images (1).jpeg"></li>
-        <li><img src="images.jpeg"></li>
-        <li><img src="images.jpeg"></li>
-        <li><img src="images (2).jpeg"></li>
-        <li><img src="panda-animals-single-icon-cartoon-style-rater-bitmap-symbol-stock-illustration-web-91847776.jpg"></li>
-        <li><img src="299f72ce92b67c935f424a3836bf7071.jpg"></li>
+    <script defer src="script.js"></script>
 
-    </ul>
+        <div class="heading">
+            <div id="gameBoard">
+        </div>
+        <h1>Click Match Memory Game</h1>
+        <div class="moves">Moves: <span>0</span></div>
+        <div class="score">Score: <span>0</span></div>
+        <div id="timer">00:00</div>
+    </div>
 
-    </section>
+    <div class="container">
+        <div class="tiles">
+            <div class="front" data-index="1"><img src="panda-animals-single-icon-cartoon-style-rater-bitmap-symbol-stock-illustration-web-91847776.jpg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="1"><img src="panda-animals-single-icon-cartoon-style-rater-bitmap-symbol-stock-illustration-web-91847776.jpg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="2"><img src="images (2).jpeg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="2"><img src="images (2).jpeg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="3"><img src="images (1).jpeg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="3"><img src="images (1).jpeg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="4"><img src="images.jpeg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="4"><img src="images.jpeg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="5"><img src="4262572_stock-vector-farm-animals-goat.jpg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="5"><img src="4262572_stock-vector-farm-animals-goat.jpg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="6"><img src="299f72ce92b67c935f424a3836bf7071.jpg" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="tiles">
+            <div class="front" data-index="6"><img src="299f72ce92b67c935f424a3836bf7071.jpg" alt=""></div>
+            <div class="back"></div>
+        </div>
+    </div>
     
 </body>
-<script src="script.js"></script>
 </html>
